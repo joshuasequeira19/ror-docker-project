@@ -1,8 +1,8 @@
-Postgres and Redis use Docker volumes to manage persistence
-Postgres, Redis and Drkiq all expose a port
-Drkiq and Sidekiq both have links to Postgres and Redis.
-Drkiq and Sidekiq both read in environment variables from .env
-Sidekiq overwrites the default CMD to run Sidekiq instead of Unicorn.
+- Postgres and Redis use Docker volumes to manage persistence
+- Postgres, Redis and Drkiq all expose a port
+- Drkiq and Sidekiq both have links to Postgres and Redis.
+- Drkiq and Sidekiq both read in environment variables from .env
+- Sidekiq overwrites the default CMD to run Sidekiq instead of Unicorn.
 
 Notes
 
