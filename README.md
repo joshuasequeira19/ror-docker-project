@@ -10,6 +10,6 @@ The Redis client for Ruby was recently updated and now checks command argument t
 
 Sidekiq has been updated to work with the new Redis client as of 6.5.x. I'm using 6.5.5 and the error is gone:
 
-ssh ```
+```
   gem 'sidekiq', '~> 6.5.5'
 ```
